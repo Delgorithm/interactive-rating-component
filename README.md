@@ -26,8 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Live Site URL: https://interactive-rating-component-nine-zeta.vercel.app/
 
 ## My process
 
@@ -45,6 +44,5 @@ I need to work on my DOM. Since I dont have any clue how to use them correctly t
 
 ## Author
 
-- Website - [Delgorithm](https://www.your-site.com)
 - Frontend Mentor - [@delgorithm](https://www.frontendmentor.io/profile/delgorithm)
 - Twitter - [@delgorithm](https://www.twitter.com/delgorithm)
