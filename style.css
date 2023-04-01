@@ -1,0 +1,122 @@
+:root{
+    --primary-color:hsl(0,0%,100%);
+
+    --neutral-color-light-grey:hsl(217,12%,63%);
+    --neutral-color-medium-grey:hsl(216,12%,54%);
+    --neutral-color-dark-blue:hsl(213,19%,18%);
+    --neutral-color-very-dark-blue:hsl(216,12%,8%);
+
+    --ebony-clay-color:hsl(215,22%,15%);
+    --mirage-color:hsl(215,24%,14%);
+    --woodsmoke-color: hsl(228,11%,9%);
+
+    --orange-color:hsl(25, 97%, 53%);
+    --orange-dark-color:hsl(25, 97%, 43%);
+}
+
+*{
+    font-family: 'Overpass', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    display: grid;
+    place-content: center;
+    height: 100svh;
+    background-color: var(--woodsmoke-color);
+}
+
+.container{
+    background-color:var(--ebony-clay-color);
+    max-width: 320px;
+    min-width: 320px;
+    min-height: 320px;
+    max-height: 320px;
+    display: grid;
+    place-content: center;
+    border-radius: 20px;
+}
+
+.container-rating{
+    display: grid;
+    place-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.title-rating{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.text-rating{
+    font-weight: 400;
+    color: var(--neutral-color-light-grey);
+    font-size: 12px;
+}
+
+.btn-rating{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: var(--neutral-color-dark-blue);
+    color: var(--neutral-color-light-grey);
+}
+
+.btn:hover,
+.btn:focus{
+    background-color: var(--neutral-color-light-grey);
+    color: var(--primary-color);
+}
+
+.btn:active{
+    background-color: var(--orange-color);
+    color: var(--primary-color);
+}
+
+.submit{
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+    justify-self: center;
+    width: 260px;
+    height: 34px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    background-color: var(--orange-color);
+    color: var(--primary-color);
+    border: none;
+}
+
+
+.submit:hover,
+.submit:focus{
+    background-color: var(--orange-dark-color);
+}
+
+.submit:active{
+    background-color: var(--primary-color);
+    color: var(--orange-color);
+}
+
+.svg-star{
+    margin-left: 4px;
+    background-color: var(--neutral-color-dark-blue);
+    padding: 12px;
+    border-radius: 100px;
+}
+
